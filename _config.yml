@@ -1,36 +1,23 @@
 markdown: kramdown
 highlighter: pygments
-safe: false
-permalink: /posts/:title.html
-exclude:
-  - README.md
+permalink: blog/:year/:month/:day/:title.html
+paginate: 12
+paginate_path: page/:num
 
-name: Hala Lossrual
-host: lossrual.github.com
-desc: For Statistical & Machine Learning.
+blog:
+    name: Hala Lossrual
+    description: Machine Learning
+    title: Machine Learning
+    url: http://lossrual.github.com 
+#duoshuo: chrispher2012
+#tongji: 3F27793c8b949a643c724f32bcf5058791
+author:
+    # Profile links on the left sidebar, leave blank to ignore
+    name: lossrual
+    email: lossrual@yahoo.com 
+#weibo: 2917650677  # weibo ID
+    github: lossrual  # github ID
+#linkedin: chrispher-guan/5a/a68/6b8
+#gplus: 110552447039675960964
+    logo: http://lossrual.github.com/res/img/logo.jpg
 
-custom:
-    category:
-        default: Machine Learning
-        another: Statistical Learning
-    categories:
-      - name:  Machine Learning
-        title: Machine Learning
-
-      - name:  Statistical Learning
-        title: Statistical Learning
-
-    scrollingLoadCount: 5                          # 滚屏自动加载文章数量，“0”为关闭
-
-meta:
-    author:
-        name: Lossrual
-        email: lossrual@yahoo.com.cn
-        disqus: lossrual             		    # Disqus缩略标识
-        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
-        github: lossrual		            # GitHub账号
-        gravatar: 1cd8c12591616d8c22aaa624f8c07834  # Gravatar头像标识
-
-    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
-    gapi: http://www.google.com/jsapi               # Google API地址
-    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
