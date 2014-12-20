@@ -14,11 +14,11 @@ custom:
         default: Machine Learning
         another: Statistical Learning
     categories:
-      - name:  default
-        title: Default Category
+      - name:  Machine Learning
+        title: Machine Learning
 
-      - name:  another
-        title: Another Category
+      - name:  Statistical Learning
+        title: Statistical Learning
 
     scrollingLoadCount: 5                          # 滚屏自动加载文章数量，“0”为关闭
 
